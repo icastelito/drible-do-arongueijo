@@ -26,6 +26,7 @@ function moviActor() {
   }
   if (yImgActor < 0) {
       yImgActor = 450;
+      score += 1;
   }
   if (xImgActor < 0) {
       xImgActor = 0;
